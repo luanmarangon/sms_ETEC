@@ -1,0 +1,208 @@
+body{
+  background-color: #3C3C3C;
+	
+}
+
+#background-login{
+  background-color: #F3F3F3;
+}
+
+.topo-site{
+  width: 100%;
+  height: 100px;
+  border-bottom: 15px solid #000;
+  background: url(../img/Logo-Arruda_Mello.png) no-repeat #B00202;
+}
+
+#login{
+	width: 500px;
+	height: 250px;	
+	position: absolute;
+	top: 50%;
+	margin-top: -175px;
+	left: 50%;
+	margin-left: -250px;
+	padding: 30px;
+	background: #EAEAEA;
+	border: 1px solid #DADBD5;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+/*.form-control{
+	 display: block;
+	 width: 100%;
+	 height: 34px;
+	 padding: 6px 12px;
+	 font-size: 14px;
+	 line-height: 1.42857143;
+	 color: #555;
+	 background-color: #fff;
+	 background-image: none;
+	 border: 1px solid #87F35B;
+	 border-radius: 4px;
+	 -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(135, 243, 91, .6);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(135, 243, 91, .6);
+	 -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+	      -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	         transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+select {
+     border: 1px solid #87F35B;
+     border-radius: 4px;
+     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(135, 243, 91, .6);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(135, 243, 91, .6);
+     -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+          -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+             transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+} */
+
+.navbar-inverse {
+  background-color: #B00202;
+  padding: 20px;
+  margin: 0 0 30px 0;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+}
+
+@media(min-width:768px) {
+    .side-nav {
+        position: fixed;
+        top: 101px;
+        left: 225px;
+        width: 225px;
+        margin-left: -225px;
+        border: none;
+        border-radius: 0;
+        overflow-y: auto;
+        background-color: #3C3C3C;
+        color: #fff;
+        font-size: 18px;
+    }
+
+    .side-nav>li>a {
+        width: 225px;
+    }
+
+    .side-nav > li > a > span {
+        padding-right: 10px;
+    }
+
+    .side-nav li a:hover,
+    .side-nav li a:focus {
+        outline: none;
+        background-color: #000000 !important;
+    }
+}
+
+.side-nav>li>ul {
+    padding: 0;
+}
+
+.side-nav>li>ul>li>a {
+    display: block;
+    padding: 10px 15px 10px 38px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.side-nav>li>ul>li>a:hover {
+    color: #fff;
+}
+
+#wrapper {
+  padding-left: 0;
+	background-color:#3C3C3C;
+}
+
+#page-wrapper {
+    width: 100%;
+    min-height: 100%;
+    padding: 0;
+    background-color: #fff;
+}
+
+.huge {
+    font-size: 50px;
+    line-height: normal;
+}
+
+@media(min-width:768px) {
+    #wrapper {
+      padding-left: 225px;
+		  margin-top: 50px;
+    }
+
+    #page-wrapper {
+        padding: 10px;
+        min-height: 500px;
+        background-color: #fff;
+    }
+}
+.page-header {
+  padding-bottom: 9px;
+  margin: 50px 0 20px;
+  border-bottom: 1px solid #eee;
+  height: 100%;
+}
+
+#espExtra {
+    padding-left: 50px;
+}
+
+#add {
+  padding: 10px 20px 10px 20px;
+  margin: 10px 0px -5px 0px;
+}
+
+#tudo {
+  float: right;
+}
+
+.title-dash {
+  font-size: 22px;
+  text-align: center;
+}
+
+#cont-sms {
+  float: right;
+  text-align: right;
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+.circulo {
+  background: #337ab7;
+  color: #fff;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  /*margin-left: 100px;*/
+  line-height: 200px;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 80px;
+  font-weight: bold;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+.panel-primary {
+  padding-top: 10px;
+}
+
+.panel-primary > .panel-heading{
+  margin-top: 10px;
+}
+
+.panel-heading > h3 {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  
+}
